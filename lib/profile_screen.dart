@@ -7,15 +7,16 @@ class ProfileScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Center(
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.start,
         children: [
-          Icon(Icons.person, size: 80.0),
           SizedBox(height: 20.0),
           Text(
             'Profile',
             style: TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold),
           ),
           SizedBox(height: 10.0),
+          Icon(Icons.person, size: 80.0),
+          SizedBox(height: 20.0),
           Text(
             'Max Mustermann', // Beispielname
             style: TextStyle(fontSize: 18.0),

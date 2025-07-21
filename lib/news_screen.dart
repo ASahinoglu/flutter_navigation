@@ -9,12 +9,12 @@ class NewsScreen extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Icon(Icons.newspaper, size: 80.0),
-          SizedBox(height: 20.0),
           Text(
             'News',
             style: TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold),
           ),
+          SizedBox(height: 20.0),
+          Icon(Icons.newspaper, size: 80.0),
         ],
       ),
     );

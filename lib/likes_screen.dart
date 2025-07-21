@@ -7,9 +7,8 @@ class LikesScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Center(
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.start,
         children: [
-          Icon(Icons.favorite, size: 80.0),
           SizedBox(height: 20.0),
           Text(
             'Likes',
